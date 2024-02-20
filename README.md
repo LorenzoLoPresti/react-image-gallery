@@ -32,5 +32,5 @@ Per avviare l'applicazione:
 - Navigare alla cartella del progetto con il terminale
 - Installare le dipendenze: `npm i`
 - Creare un file .env nella root
-- inserire una variabile _VITE_UNSPLASH_API_KEY_ nel file .env: `VITE_UNSPLASH_API_KEY=my_key`
+- inserire una variabile _VITE_UNSPLASH_API_KEY_ nel file .env con la propria key della API di Usplash: `VITE_UNSPLASH_API_KEY=my_key`
 - Avviare l'applicazione inserendo il comando `npm run dev`
