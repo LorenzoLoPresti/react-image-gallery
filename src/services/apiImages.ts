@@ -26,7 +26,7 @@ export interface ImageObjectInterface {
   user: Artist;
 }
 
-const UNSPLASH_API_KEY = "MW4zPeUx24HV-sVfEgTec13QPzwwBPGkNMGgb0lvnbg";
+const UNSPLASH_API_KEY = import.meta.env.VITE_UNSPLASH_API_KEY;
 
 // Ottiene le immagini dalla API di unplash
 export async function getImages() {

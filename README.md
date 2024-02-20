@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+# Tcj-space-landing
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Progetto personale didattico.
 
-Currently, two official plugins are available:
+![Preview](https://github.com/LorenzoLoPresti/images/blob/main/react-image-gallery/image1.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Stack utilizzato:
 
-## Expanding the ESLint configuration
+- Vite
+- React
+- Typescript
+- Tailwind
+- React Query
+- React-router-DOM
+- React-intersection-observer
+- Transition kit
+- Unsplash API
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Descrizione
 
-- Configure the top-level `parserOptions` property like this:
+Semplice applicazione che mostra una serie di foto da Unsplash. Cliccando su un'immagine si apre la singola foto. È possibile passare alla foto precedente/successiva o mostrare i dettagli dell'artista che l'ha realizzata cliccando sulla foto. Infine è possibile cambiare il tema dell'applicazione.
+Realizzata cercando di seguire l'Atomic design metodology.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+### Start
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Per avviare l'applicazione:
+
+- Navigare alla cartella del progetto con il terminale
+- Installare le dipendenze: `npm i`
+- Avviare l'applicazione inserendo il comando `npm run dev`
