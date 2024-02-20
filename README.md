@@ -4,6 +4,10 @@ Progetto personale didattico.
 
 ![Preview](https://github.com/LorenzoLoPresti/images/blob/main/react-image-gallery/image1.png)
 
+![Preview](https://github.com/LorenzoLoPresti/images/blob/main/react-image-gallery/image2.png)
+
+![Preview](https://github.com/LorenzoLoPresti/images/blob/main/react-image-gallery/image3.png)
+
 ## Stack utilizzato:
 
 - Vite
