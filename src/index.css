@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  transition: color 0.3s, background-color 0.3s, transform 0.3s, opacity 0.3s;
+}
+
+/* Variabili css che cambiano se la darkMode è attiva */
+:root {
+  --primary-color: #0185ff;
+  --secondary-color: #cbd9e7;
+  --danger-color: #d72638;
+  --dark: #616471;
+  --white: #ffffff;
+  --bg-color: #e5ebf1;
+  --bg-container: #ffffff;
+}
+
+.darkMode {
+  --primary-color: #f8a145;
+  --secondary-color: #cbd9e7;
+  --danger-color: #d72638;
+  --dark: #ffffff;
+  --white: #151515;
+  --bg-color: #151515;
+  --bg-container: #5e5a57;
+}
